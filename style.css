@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ecf5ff;
+}
+
+header {
+    text-align: center;
+    background-color: #1565c0;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    text-align: center;
+    background-color: #0d47a1;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 70%;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+button,
+.button {
+    padding: 8px 15px;
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover,
+.button:hover {
+    background-color: #0d47a1;
+}
+
+/* Normal text inputs and select boxes */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* Quiz radio buttons */
+input[type="radio"] {
+    display: inline-block;
+    width: auto;
+    margin: 8px 5px 8px 0;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1565c0;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0d47a1;
+    color: white;
+}
